@@ -6,7 +6,7 @@ ntp::restrict:
   - '-6 ::1'
 ntp::iburst_enable: false
 ntp::servers:
-  - '0.centos.pool.ntp.org'
-  - '1.centos.pool.ntp.org'
+  - 'rhel1.pool.ntp.org'
+  - 'server.test.com.pool.ntp.org'
   - '2.centos.pool.ntp.org'
 ntp::step_tickers_file: '/etc/ntp/step-tickers'
